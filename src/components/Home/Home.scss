@@ -1,0 +1,26 @@
+@import "../../colors.scss";
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    background-color: $secondaryColor;
+    color: rgb(114, 110, 110);
+}
+
+.header div span{
+    margin: 1em;
+    color: rgb(114, 110, 110);
+}
+
+a{
+    all:unset;
+    cursor:pointer;
+    color: rgb(114, 110, 110);
+    font-size: x-large;
+    
+}
+@media screen and (max-width: 600px) {
+    .App, .header {   
+      flex-direction: column;
+    }
+  }
